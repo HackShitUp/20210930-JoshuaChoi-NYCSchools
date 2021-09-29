@@ -1,0 +1,16 @@
+PODS:
+  - NavigationTransitionController (0.0.1)
+
+DEPENDENCIES:
+  - NavigationTransitionController
+
+SPEC REPOS:
+  trunk:
+    - NavigationTransitionController
+
+SPEC CHECKSUMS:
+  NavigationTransitionController: f29a23112e28e907d00a4f4bd5ff170a8a631395
+
+PODFILE CHECKSUM: 551587e8d198f9ff6e3dc622369f4e63a911fcd9
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9CDABECD4819FB33C396035BED34FF /* NavigationTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE0CF43C2430F759D00FC84852CE72 /* NavigationTransitionController.swift */; };
+		0DCCCD3649C86CF8DBCA30C088EE0107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2575AE5FB36A527D87BECB4F1435402D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C7DF2EFBC517009F9885C87750207E8 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD12A875370C26CAB1C55BE8FED6940 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3240A8B9F73DA2FE9B86997A81E8A594 /* TransitionRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A149CE2AB7DBE0FDDCE6680BB421F3F /* TransitionRatio.swift */; };
+		7D25C0CA862DB3AD02BC2348DEE4CD83 /* NavigationTransitionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E7744C4B1BD970E68AF6BA76AC55C9 /* NavigationTransitionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C7A8DBC5849C3D710A6E592C5062FEF /* Pods-20210930-JoshuaChoi-NYCSchools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EADB0B123313F8EE6E35B0D3CFBA733C /* Pods-20210930-JoshuaChoi-NYCSchools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96EA139B8F19FE8748CE4905E0A6F209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97AF189B21521E771505258A093CAF81 /* NavigationTransitionController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B16B42B803BF1C20DD51CBEDC013A /* NavigationTransitionController+Delegate.swift */; };
+		A0D8EF0E1EFBE76EC6CA213654A24438 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BE237BCBCF59829CF9A21F954C8968 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-dummy.m */; };
+		AF91A469CDB47C78DE2AC58FA9AA1374 /* NavigationTransitionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AB7B76F5D51189B65DFB86693DB265 /* NavigationTransitionController-dummy.m */; };
+		C2878CE2A9F106BFC980D0299B6A8BDF /* NavigationTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB94776B15DF0B6B4F1A13CADE394F5 /* NavigationTransitionType.swift */; };
+		C782CA247EB4DEE949AC2A4379562621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CF749389895C78E15AA06CE910BE6442 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CF1773B5CAAEC044FCE2DC3DD827AD /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47DFE1ECE83109F45AA6E5F9AD4CEF7 /* NavigationTransitionController+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394DB9D077AB942F85B377CA61ABC2CA /* NavigationTransitionController+Math.swift */; };
+		D58972EEF1D717F96C49894E943EEBCC /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC1A7DCB8A1998D41EA06B6B15CF9ED /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-dummy.m */; };
+		EA84BA06B9800269C3677DC9BFE591CE /* NavigationTransitionControllerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE019777FBA4E506252054FAC06D7B /* NavigationTransitionControllerOperation.swift */; };
+		F48AA9C841C9FD4B4F60C56CB2C9E22C /* Pods-20210930-JoshuaChoi-NYCSchools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF9D2C15FDF07C7EA4390EAF93BF5D /* Pods-20210930-JoshuaChoi-NYCSchools-dummy.m */; };
+		FFF3F3E51E17AC9FC596F6678551AB2E /* NavigationTransitionController+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C251FD408633579A84CCEE76A02FD2F /* NavigationTransitionController+Methods.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		285980579E96D1753BFC0471DC8A53F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F328C0ECFA313720AF0374874BB19D;
+			remoteInfo = "Pods-20210930-JoshuaChoi-NYCSchools";
+		};
+		661D2C1B6F8470E67258DBA7E958E5BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12C59007353D3EA204486EAD238FDFF;
+			remoteInfo = NavigationTransitionController;
+		};
+		730DFC918D81E36C4DC454DCD7ADE971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12C59007353D3EA204486EAD238FDFF;
+			remoteInfo = NavigationTransitionController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06691A8C807C756DA68A96300257148C /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210930-JoshuaChoi-NYCSchoolsTests-Info.plist"; sourceTree = "<group>"; };
+		07256430BD3293221876B28088873EDF /* Pods-20210930-JoshuaChoi-NYCSchools-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210930-JoshuaChoi-NYCSchools-acknowledgements.plist"; sourceTree = "<group>"; };
+		1001187DDD5E36C106DE3952F513EB4C /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		11E48441DD283DB912EE47AB1F1471FF /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12E7FD92E3E9D0914A0CACC2035E8076 /* NavigationTransitionController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationTransitionController-Info.plist"; sourceTree = "<group>"; };
+		15E7744C4B1BD970E68AF6BA76AC55C9 /* NavigationTransitionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationTransitionController-umbrella.h"; sourceTree = "<group>"; };
+		1C251FD408633579A84CCEE76A02FD2F /* NavigationTransitionController+Methods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NavigationTransitionController+Methods.swift"; path = "Classes/NavigationTransitionController+Methods.swift"; sourceTree = "<group>"; };
+		25DE0CF43C2430F759D00FC84852CE72 /* NavigationTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionController.swift; path = Classes/NavigationTransitionController.swift; sourceTree = "<group>"; };
+		27F8ECDD408C9E80D05D196E66E7C5BB /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		284CB58DB2EFF4CFA4F12D22BEA6E861 /* Pods-20210930-JoshuaChoi-NYCSchools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-20210930-JoshuaChoi-NYCSchools"; path = Pods_20210930_JoshuaChoi_NYCSchools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394DB9D077AB942F85B377CA61ABC2CA /* NavigationTransitionController+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NavigationTransitionController+Math.swift"; path = "Classes/NavigationTransitionController+Math.swift"; sourceTree = "<group>"; };
+		3CC465C35EA742AC1615446F8A24FF71 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.modulemap"; sourceTree = "<group>"; };
+		4137A50925BF5D587EEF3A0E18B9CA4B /* Pods-20210930-JoshuaChoi-NYCSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210930-JoshuaChoi-NYCSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		498344798F5868CC0DB0E8AE317590AA /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-20210930-JoshuaChoi-NYCSchoolsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CB94776B15DF0B6B4F1A13CADE394F5 /* NavigationTransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionType.swift; path = Classes/NavigationTransitionType/NavigationTransitionType.swift; sourceTree = "<group>"; };
+		52504DF0F2BD2D9C3A858E12215A7CCE /* Pods-20210930-JoshuaChoi-NYCSchools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210930-JoshuaChoi-NYCSchools-Info.plist"; sourceTree = "<group>"; };
+		53F093DA0E5136A87BEF627E9E7CFE9D /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59867EC098807F6F57AC3783F02E8154 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests"; path = Pods_20210930_JoshuaChoi_NYCSchools_20210930_JoshuaChoi_NYCSchoolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BB8887B30B0446927CB89655C68240 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210930-JoshuaChoi-NYCSchoolsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63BE237BCBCF59829CF9A21F954C8968 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-20210930-JoshuaChoi-NYCSchoolsTests-dummy.m"; sourceTree = "<group>"; };
+		6598EA06F35B048BCE7951242F88D9F9 /* NavigationTransitionController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationTransitionController.release.xcconfig; sourceTree = "<group>"; };
+		663B16B42B803BF1C20DD51CBEDC013A /* NavigationTransitionController+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NavigationTransitionController+Delegate.swift"; path = "Classes/NavigationTransitionController+Delegate.swift"; sourceTree = "<group>"; };
+		6EB40AF65A9F0A58E11227A389E7A612 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-20210930-JoshuaChoi-NYCSchoolsTests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77E8AFAA0F47F9F4F15DBEA1B0026944 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78A9D891D0DD792FC95B1A921C83E45D /* Pods-20210930-JoshuaChoi-NYCSchools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-20210930-JoshuaChoi-NYCSchools.modulemap"; sourceTree = "<group>"; };
+		7A9758327E17FC72C43CE37892E67DA4 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-Info.plist"; sourceTree = "<group>"; };
+		8A149CE2AB7DBE0FDDCE6680BB421F3F /* TransitionRatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionRatio.swift; path = Classes/TransitionRatio/TransitionRatio.swift; sourceTree = "<group>"; };
+		90AB7B76F5D51189B65DFB86693DB265 /* NavigationTransitionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationTransitionController-dummy.m"; sourceTree = "<group>"; };
+		9289D64E0036C67E7AF8F392D56C1FB5 /* Pods-20210930-JoshuaChoi-NYCSchools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210930-JoshuaChoi-NYCSchools.release.xcconfig"; sourceTree = "<group>"; };
+		9712505BA3024E179494829FD74FC2E5 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210930-JoshuaChoi-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1ADA5545A2F6E0C7BC978CD0FFB4E13 /* Pods-20210930-JoshuaChoi-NYCSchools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20210930-JoshuaChoi-NYCSchools.debug.xcconfig"; sourceTree = "<group>"; };
+		A9800CE67F649ECEB4CA7928E14FFA89 /* NavigationTransitionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationTransitionController.modulemap; sourceTree = "<group>"; };
+		B0156B17C909D97B51CE07A205F517E6 /* NavigationTransitionController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationTransitionController.debug.xcconfig; sourceTree = "<group>"; };
+		B5DE019777FBA4E506252054FAC06D7B /* NavigationTransitionControllerOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationTransitionControllerOperation.swift; path = Classes/NavigationTransitionControllerOperation/NavigationTransitionControllerOperation.swift; sourceTree = "<group>"; };
+		BBC1A7DCB8A1998D41EA06B6B15CF9ED /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-dummy.m"; sourceTree = "<group>"; };
+		C407F44FC2159724D08C416BBD67FC50 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-20210930-JoshuaChoi-NYCSchoolsTests"; path = Pods_20210930_JoshuaChoi_NYCSchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CF1773B5CAAEC044FCE2DC3DD827AD /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-umbrella.h"; sourceTree = "<group>"; };
+		CE826C623CEFD827B9E8F90546B1F2CE /* NavigationTransitionController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationTransitionController; path = NavigationTransitionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBA7F58548D394F4CB5784E25E0604D /* Pods-20210930-JoshuaChoi-NYCSchools-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-20210930-JoshuaChoi-NYCSchools-frameworks.sh"; sourceTree = "<group>"; };
+		E225C817C08652154EC5CAC3B6597955 /* Pods-20210930-JoshuaChoi-NYCSchools-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-20210930-JoshuaChoi-NYCSchools-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7A7887D02EEAC63E318253C399D81E5 /* NavigationTransitionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationTransitionController-prefix.pch"; sourceTree = "<group>"; };
+		EADB0B123313F8EE6E35B0D3CFBA733C /* Pods-20210930-JoshuaChoi-NYCSchools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-20210930-JoshuaChoi-NYCSchools-umbrella.h"; sourceTree = "<group>"; };
+		FADF9D2C15FDF07C7EA4390EAF93BF5D /* Pods-20210930-JoshuaChoi-NYCSchools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-20210930-JoshuaChoi-NYCSchools-dummy.m"; sourceTree = "<group>"; };
+		FCD12A875370C26CAB1C55BE8FED6940 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-20210930-JoshuaChoi-NYCSchoolsTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A831575E20D0A6C5FD86CC8EAEB4687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCCCD3649C86CF8DBCA30C088EE0107 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E68DC7CFF528C17FB054FF9878E813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2575AE5FB36A527D87BECB4F1435402D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6719E908BD7DB8C070F067BF0EFE70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EA139B8F19FE8748CE4905E0A6F209 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD32DE9910ED5080BA005EBC9390E43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C782CA247EB4DEE949AC2A4379562621 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7B7F92D4F88A4346A924C8A95D595B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5207D0C9313FB1AA78DFE5CE31699C /* Pods-20210930-JoshuaChoi-NYCSchools */,
+				B1935D9A9D08CCFF7FD3B93199704CBE /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests */,
+				DA5AD351826916504548401DE5F6377F /* Pods-20210930-JoshuaChoi-NYCSchoolsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		111019E89C116DCF6F3051175F79FE18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				715262D2AF5AEAFAE673F002B32E9002 /* NavigationTransitionController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27E995C74D4061F3B97802A99890B163 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9800CE67F649ECEB4CA7928E14FFA89 /* NavigationTransitionController.modulemap */,
+				90AB7B76F5D51189B65DFB86693DB265 /* NavigationTransitionController-dummy.m */,
+				12E7FD92E3E9D0914A0CACC2035E8076 /* NavigationTransitionController-Info.plist */,
+				E7A7887D02EEAC63E318253C399D81E5 /* NavigationTransitionController-prefix.pch */,
+				15E7744C4B1BD970E68AF6BA76AC55C9 /* NavigationTransitionController-umbrella.h */,
+				B0156B17C909D97B51CE07A205F517E6 /* NavigationTransitionController.debug.xcconfig */,
+				6598EA06F35B048BCE7951242F88D9F9 /* NavigationTransitionController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NavigationTransitionController";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		715262D2AF5AEAFAE673F002B32E9002 /* NavigationTransitionController */ = {
+			isa = PBXGroup;
+			children = (
+				25DE0CF43C2430F759D00FC84852CE72 /* NavigationTransitionController.swift */,
+				663B16B42B803BF1C20DD51CBEDC013A /* NavigationTransitionController+Delegate.swift */,
+				394DB9D077AB942F85B377CA61ABC2CA /* NavigationTransitionController+Math.swift */,
+				1C251FD408633579A84CCEE76A02FD2F /* NavigationTransitionController+Methods.swift */,
+				B5DE019777FBA4E506252054FAC06D7B /* NavigationTransitionControllerOperation.swift */,
+				4CB94776B15DF0B6B4F1A13CADE394F5 /* NavigationTransitionType.swift */,
+				8A149CE2AB7DBE0FDDCE6680BB421F3F /* TransitionRatio.swift */,
+				27E995C74D4061F3B97802A99890B163 /* Support Files */,
+			);
+			name = NavigationTransitionController;
+			path = NavigationTransitionController;
+			sourceTree = "<group>";
+		};
+		B1935D9A9D08CCFF7FD3B93199704CBE /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC465C35EA742AC1615446F8A24FF71 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.modulemap */,
+				27F8ECDD408C9E80D05D196E66E7C5BB /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-acknowledgements.markdown */,
+				53F093DA0E5136A87BEF627E9E7CFE9D /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-acknowledgements.plist */,
+				BBC1A7DCB8A1998D41EA06B6B15CF9ED /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-dummy.m */,
+				1001187DDD5E36C106DE3952F513EB4C /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-frameworks.sh */,
+				7A9758327E17FC72C43CE37892E67DA4 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-Info.plist */,
+				C9CF1773B5CAAEC044FCE2DC3DD827AD /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-umbrella.h */,
+				77E8AFAA0F47F9F4F15DBEA1B0026944 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.debug.xcconfig */,
+				11E48441DD283DB912EE47AB1F1471FF /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.release.xcconfig */,
+			);
+			name = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests";
+			path = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				111019E89C116DCF6F3051175F79FE18 /* Pods */,
+				D49D78B8CBBBA090CEF38C0A8C304156 /* Products */,
+				0D7B7F92D4F88A4346A924C8A95D595B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D49D78B8CBBBA090CEF38C0A8C304156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE826C623CEFD827B9E8F90546B1F2CE /* NavigationTransitionController */,
+				284CB58DB2EFF4CFA4F12D22BEA6E861 /* Pods-20210930-JoshuaChoi-NYCSchools */,
+				59867EC098807F6F57AC3783F02E8154 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests */,
+				C407F44FC2159724D08C416BBD67FC50 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5AD351826916504548401DE5F6377F /* Pods-20210930-JoshuaChoi-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB40AF65A9F0A58E11227A389E7A612 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests.modulemap */,
+				498344798F5868CC0DB0E8AE317590AA /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-acknowledgements.markdown */,
+				59BB8887B30B0446927CB89655C68240 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-acknowledgements.plist */,
+				63BE237BCBCF59829CF9A21F954C8968 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-dummy.m */,
+				06691A8C807C756DA68A96300257148C /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-Info.plist */,
+				FCD12A875370C26CAB1C55BE8FED6940 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-umbrella.h */,
+				4137A50925BF5D587EEF3A0E18B9CA4B /* Pods-20210930-JoshuaChoi-NYCSchoolsTests.debug.xcconfig */,
+				9712505BA3024E179494829FD74FC2E5 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests.release.xcconfig */,
+			);
+			name = "Pods-20210930-JoshuaChoi-NYCSchoolsTests";
+			path = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		FD5207D0C9313FB1AA78DFE5CE31699C /* Pods-20210930-JoshuaChoi-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				78A9D891D0DD792FC95B1A921C83E45D /* Pods-20210930-JoshuaChoi-NYCSchools.modulemap */,
+				E225C817C08652154EC5CAC3B6597955 /* Pods-20210930-JoshuaChoi-NYCSchools-acknowledgements.markdown */,
+				07256430BD3293221876B28088873EDF /* Pods-20210930-JoshuaChoi-NYCSchools-acknowledgements.plist */,
+				FADF9D2C15FDF07C7EA4390EAF93BF5D /* Pods-20210930-JoshuaChoi-NYCSchools-dummy.m */,
+				CEBA7F58548D394F4CB5784E25E0604D /* Pods-20210930-JoshuaChoi-NYCSchools-frameworks.sh */,
+				52504DF0F2BD2D9C3A858E12215A7CCE /* Pods-20210930-JoshuaChoi-NYCSchools-Info.plist */,
+				EADB0B123313F8EE6E35B0D3CFBA733C /* Pods-20210930-JoshuaChoi-NYCSchools-umbrella.h */,
+				A1ADA5545A2F6E0C7BC978CD0FFB4E13 /* Pods-20210930-JoshuaChoi-NYCSchools.debug.xcconfig */,
+				9289D64E0036C67E7AF8F392D56C1FB5 /* Pods-20210930-JoshuaChoi-NYCSchools.release.xcconfig */,
+			);
+			name = "Pods-20210930-JoshuaChoi-NYCSchools";
+			path = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E5A1C5595739AF16BDA867277E9264C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7A8DBC5849C3D710A6E592C5062FEF /* Pods-20210930-JoshuaChoi-NYCSchools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3964097DBA21072AEA43EBD523588A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7DF2EFBC517009F9885C87750207E8 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77C30B7BA03265CE9DFDC15539CEC6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D25C0CA862DB3AD02BC2348DEE4CD83 /* NavigationTransitionController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7649AFDCE64DC918D7FE3A60F90387B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF749389895C78E15AA06CE910BE6442 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05F328C0ECFA313720AF0374874BB19D /* Pods-20210930-JoshuaChoi-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028E0578938C371E4307EE162349749E /* Build configuration list for PBXNativeTarget "Pods-20210930-JoshuaChoi-NYCSchools" */;
+			buildPhases = (
+				0E5A1C5595739AF16BDA867277E9264C /* Headers */,
+				DA79AD1028F4BC4E7B577A84193D87DC /* Sources */,
+				FD32DE9910ED5080BA005EBC9390E43D /* Frameworks */,
+				6304A63F84D9F5A1245AE76FBC6A8B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF60C3834DE211DB7AB8D95AEA9E8B08 /* PBXTargetDependency */,
+			);
+			name = "Pods-20210930-JoshuaChoi-NYCSchools";
+			productName = Pods_20210930_JoshuaChoi_NYCSchools;
+			productReference = 284CB58DB2EFF4CFA4F12D22BEA6E861 /* Pods-20210930-JoshuaChoi-NYCSchools */;
+			productType = "com.apple.product-type.framework";
+		};
+		0625C5A088DE46F5FE9A2699015889F5 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F2BBD693C7828AA98418DF829BBF64 /* Build configuration list for PBXNativeTarget "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests" */;
+			buildPhases = (
+				C7649AFDCE64DC918D7FE3A60F90387B /* Headers */,
+				1F2DEDDFE0EA0E366C63E40F3FA71598 /* Sources */,
+				B6719E908BD7DB8C070F067BF0EFE70E /* Frameworks */,
+				F4C5F541C022699E218C5F7926943A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8C2DBB51299CF9117F6779B4A89A044 /* PBXTargetDependency */,
+			);
+			name = "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests";
+			productName = Pods_20210930_JoshuaChoi_NYCSchools_20210930_JoshuaChoi_NYCSchoolsUITests;
+			productReference = 59867EC098807F6F57AC3783F02E8154 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A12C59007353D3EA204486EAD238FDFF /* NavigationTransitionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396064EC8D0C3819524601EADC8C1979 /* Build configuration list for PBXNativeTarget "NavigationTransitionController" */;
+			buildPhases = (
+				B77C30B7BA03265CE9DFDC15539CEC6E /* Headers */,
+				9B7BF6667F7FB6D5318D35FBBE615D43 /* Sources */,
+				58E68DC7CFF528C17FB054FF9878E813 /* Frameworks */,
+				C6028C63D1627E92D6FCA094EB06032D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationTransitionController;
+			productName = NavigationTransitionController;
+			productReference = CE826C623CEFD827B9E8F90546B1F2CE /* NavigationTransitionController */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6684FBEB8397EB955A2B6E0CB01843D /* Pods-20210930-JoshuaChoi-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9F0D0DF619979B0E224FAF13CBC28B /* Build configuration list for PBXNativeTarget "Pods-20210930-JoshuaChoi-NYCSchoolsTests" */;
+			buildPhases = (
+				8A3964097DBA21072AEA43EBD523588A /* Headers */,
+				7FADE96D5C26F16DB7E7CF1CDBBBE999 /* Sources */,
+				3A831575E20D0A6C5FD86CC8EAEB4687 /* Frameworks */,
+				F0765557D36512F11A3774724FCCFC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FAC16A0C28F0AAB1147F48AE1D2EE85 /* PBXTargetDependency */,
+			);
+			name = "Pods-20210930-JoshuaChoi-NYCSchoolsTests";
+			productName = Pods_20210930_JoshuaChoi_NYCSchoolsTests;
+			productReference = C407F44FC2159724D08C416BBD67FC50 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D49D78B8CBBBA090CEF38C0A8C304156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12C59007353D3EA204486EAD238FDFF /* NavigationTransitionController */,
+				05F328C0ECFA313720AF0374874BB19D /* Pods-20210930-JoshuaChoi-NYCSchools */,
+				0625C5A088DE46F5FE9A2699015889F5 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests */,
+				B6684FBEB8397EB955A2B6E0CB01843D /* Pods-20210930-JoshuaChoi-NYCSchoolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6304A63F84D9F5A1245AE76FBC6A8B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6028C63D1627E92D6FCA094EB06032D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0765557D36512F11A3774724FCCFC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C5F541C022699E218C5F7926943A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2DEDDFE0EA0E366C63E40F3FA71598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58972EEF1D717F96C49894E943EEBCC /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FADE96D5C26F16DB7E7CF1CDBBBE999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D8EF0E1EFBE76EC6CA213654A24438 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7BF6667F7FB6D5318D35FBBE615D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9CDABECD4819FB33C396035BED34FF /* NavigationTransitionController.swift in Sources */,
+				97AF189B21521E771505258A093CAF81 /* NavigationTransitionController+Delegate.swift in Sources */,
+				D47DFE1ECE83109F45AA6E5F9AD4CEF7 /* NavigationTransitionController+Math.swift in Sources */,
+				FFF3F3E51E17AC9FC596F6678551AB2E /* NavigationTransitionController+Methods.swift in Sources */,
+				AF91A469CDB47C78DE2AC58FA9AA1374 /* NavigationTransitionController-dummy.m in Sources */,
+				EA84BA06B9800269C3677DC9BFE591CE /* NavigationTransitionControllerOperation.swift in Sources */,
+				C2878CE2A9F106BFC980D0299B6A8BDF /* NavigationTransitionType.swift in Sources */,
+				3240A8B9F73DA2FE9B86997A81E8A594 /* TransitionRatio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA79AD1028F4BC4E7B577A84193D87DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48AA9C841C9FD4B4F60C56CB2C9E22C /* Pods-20210930-JoshuaChoi-NYCSchools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FAC16A0C28F0AAB1147F48AE1D2EE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-20210930-JoshuaChoi-NYCSchools";
+			target = 05F328C0ECFA313720AF0374874BB19D /* Pods-20210930-JoshuaChoi-NYCSchools */;
+			targetProxy = 285980579E96D1753BFC0471DC8A53F4 /* PBXContainerItemProxy */;
+		};
+		D8C2DBB51299CF9117F6779B4A89A044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NavigationTransitionController;
+			target = A12C59007353D3EA204486EAD238FDFF /* NavigationTransitionController */;
+			targetProxy = 730DFC918D81E36C4DC454DCD7ADE971 /* PBXContainerItemProxy */;
+		};
+		FF60C3834DE211DB7AB8D95AEA9E8B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NavigationTransitionController;
+			target = A12C59007353D3EA204486EAD238FDFF /* NavigationTransitionController */;
+			targetProxy = 661D2C1B6F8470E67258DBA7E958E5BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E0DE65E656B0A378F0FC06B437BAF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E48441DD283DB912EE47AB1F1471FF /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3112110461A0B78BD36AB99B0E3BA96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0156B17C909D97B51CE07A205F517E6 /* NavigationTransitionController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationTransitionController/NavigationTransitionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationTransitionController/NavigationTransitionController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NavigationTransitionController/NavigationTransitionController.modulemap";
+				PRODUCT_MODULE_NAME = NavigationTransitionController;
+				PRODUCT_NAME = NavigationTransitionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37F606694FCF69DBE27F6F4AD7023309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E8AFAA0F47F9F4F15DBEA1B0026944 /* Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		808738CE49C85E22F67D503C99EE71C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9712505BA3024E179494829FD74FC2E5 /* Pods-20210930-JoshuaChoi-NYCSchoolsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchoolsTests/Pods-20210930-JoshuaChoi-NYCSchoolsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchoolsTests/Pods-20210930-JoshuaChoi-NYCSchoolsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9089E889CC813AE62B5A38634E1F51E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6598EA06F35B048BCE7951242F88D9F9 /* NavigationTransitionController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationTransitionController/NavigationTransitionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationTransitionController/NavigationTransitionController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NavigationTransitionController/NavigationTransitionController.modulemap";
+				PRODUCT_MODULE_NAME = NavigationTransitionController;
+				PRODUCT_NAME = NavigationTransitionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E0F7856164A755303FDA302E7DDD01BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4137A50925BF5D587EEF3A0E18B9CA4B /* Pods-20210930-JoshuaChoi-NYCSchoolsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchoolsTests/Pods-20210930-JoshuaChoi-NYCSchoolsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchoolsTests/Pods-20210930-JoshuaChoi-NYCSchoolsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBB52322F2954F2F89334715BDC37DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1ADA5545A2F6E0C7BC978CD0FFB4E13 /* Pods-20210930-JoshuaChoi-NYCSchools.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools/Pods-20210930-JoshuaChoi-NYCSchools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools/Pods-20210930-JoshuaChoi-NYCSchools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0C42F334627B5B6370A2A80C197244B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9289D64E0036C67E7AF8F392D56C1FB5 /* Pods-20210930-JoshuaChoi-NYCSchools.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools/Pods-20210930-JoshuaChoi-NYCSchools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools/Pods-20210930-JoshuaChoi-NYCSchools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028E0578938C371E4307EE162349749E /* Build configuration list for PBXNativeTarget "Pods-20210930-JoshuaChoi-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB52322F2954F2F89334715BDC37DC7 /* Debug */,
+				F0C42F334627B5B6370A2A80C197244B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396064EC8D0C3819524601EADC8C1979 /* Build configuration list for PBXNativeTarget "NavigationTransitionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3112110461A0B78BD36AB99B0E3BA96C /* Debug */,
+				9089E889CC813AE62B5A38634E1F51E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9F0D0DF619979B0E224FAF13CBC28B /* Build configuration list for PBXNativeTarget "Pods-20210930-JoshuaChoi-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F7856164A755303FDA302E7DDD01BF /* Debug */,
+				808738CE49C85E22F67D503C99EE71C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F2BBD693C7828AA98418DF829BBF64 /* Build configuration list for PBXNativeTarget "Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F606694FCF69DBE27F6F4AD7023309 /* Debug */,
+				2E0DE65E656B0A378F0FC06B437BAF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

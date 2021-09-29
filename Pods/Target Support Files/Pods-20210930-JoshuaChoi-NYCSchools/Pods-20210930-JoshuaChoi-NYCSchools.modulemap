@@ -1,0 +1,6 @@
+framework module Pods_20210930_JoshuaChoi_NYCSchools {
+  umbrella header "Pods-20210930-JoshuaChoi-NYCSchools-umbrella.h"
+
+  export *
+  module * { export * }
+}
