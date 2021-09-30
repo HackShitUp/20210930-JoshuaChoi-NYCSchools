@@ -49,7 +49,7 @@ class SchoolsViewController: UIViewController {
 
         // Set the pagination values
         self.offset = 0
-        self.limit = 20
+        self.limit = 10
         
         // Setup the navigation bar
         navigationItem.title = "NYC Schools 🎓"
@@ -188,7 +188,7 @@ class SchoolsViewController: UIViewController {
                         // Update the data source
                         self.schools.append(contentsOf: objects)
                         // Update the pagination
-                        self.offset += objects.count
+                        self.offset = self.schools.count
                         // Insert the items in the collection view
                         self.collectionView.insertItems(at: indexPaths)
                     } completion: { (finished: Bool) in
@@ -201,7 +201,7 @@ class SchoolsViewController: UIViewController {
                 // Update the Boolean
                 self.isLoadingData = false
                 // Stop the animation
-                collectionReusableView.animate(true)
+                collectionReusableView.animate(false)
             }
         }
     }
