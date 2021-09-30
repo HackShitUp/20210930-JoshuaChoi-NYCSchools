@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools/Pods-20210930-JoshuaChoi-NYCSchools-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
 ${BUILT_PRODUCTS_DIR}/NavigationTransitionController/NavigationTransitionController.framework
+${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework

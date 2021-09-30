@@ -7,6 +7,8 @@ target '20210930-JoshuaChoi-NYCSchools' do
 
   # Pods for 20210930-JoshuaChoi-NYCSchools
   pod 'NavigationTransitionController'
+  pod 'NVActivityIndicatorView'
+  pod 'TTTAttributedLabel'
 
   target '20210930-JoshuaChoi-NYCSchoolsTests' do
     inherit! :search_paths

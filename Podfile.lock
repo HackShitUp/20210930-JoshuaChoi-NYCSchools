@@ -1,16 +1,26 @@
 PODS:
   - NavigationTransitionController (0.0.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - TTTAttributedLabel (2.0.0)
 
 DEPENDENCIES:
   - NavigationTransitionController
+  - NVActivityIndicatorView
+  - TTTAttributedLabel
 
 SPEC REPOS:
   trunk:
     - NavigationTransitionController
+    - NVActivityIndicatorView
+    - TTTAttributedLabel
 
 SPEC CHECKSUMS:
   NavigationTransitionController: f29a23112e28e907d00a4f4bd5ff170a8a631395
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: 551587e8d198f9ff6e3dc622369f4e63a911fcd9
+PODFILE CHECKSUM: c24534ea315abc61d22244f2dc94e8fef9782d40
 
 COCOAPODS: 1.11.2

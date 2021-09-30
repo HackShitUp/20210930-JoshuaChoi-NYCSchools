@@ -7,68 +7,39 @@
 
 import UIKit
 
+
+
+/**
+ Abstract: Model outlining the details of a given's school's SAT details
+ */
 struct School: Codable {
     
-    var dbn,
-        schoolName,
-        boro,
-        overview_paragraph,
-        school_10th_seats,
-        academicopportunities1,
-        academicopportunities2,
-        ell_programs,
-        neighborhood,
-        building_code,
-        location,
-        phone_number,
-        fax_number,
-        school_email,
+    // MARK: - Class Vars
+    
+    var id,
+        name,
+        description,
+        email,
         website,
-        subway,
-        bus,
-        grades2018,
-        finalgrades,
-        total_students,
-        extracurricular_activities,
-        school_sports,
-        attendance_rate,
-        pct_stu_enough_variety,
-        pct_stu_safe,
-        school_accessibility_description,
-        directions1,
-        requirement1_1,
-        requirement2_1,
-        requirement3_1,
-        requirement4_1,
-        requirement5_1,
-        offer_rate1,
-        program1,
-        code1,
-        interest1,
-        method1,
-        seats9ge1,
-        grade9gefilledflag1,
-        grade9geapplicants1,
-        seats9swd1,
-        grade9swdfilledflag1,
-        grade9swdapplicants1,
-        seats101,
-        admissionspriority11,
-        admissionspriority21,
-        admissionspriority31,
-        grade9geapplicantsperseat1,
-        grade9swdapplicantsperseat1,
-        primary_address_line_1,
-        city,
-        zip,
-        state_code,
-        latitude,
-        longitude,
-        community_board,
-        council_district,
-        census_tract,
-        bin,
-        bbl,
         nta,
-        borough: String?
+        borough,
+        phoneNumber: String?
+    
+    
+    /// Determines if this School was favorited by the user — stored locally (this would need to be synced to the database if this were a real product)
+    var isFavorite: Bool {
+        get {
+            return FavoriteCache.isFavorited(schoolId: self.id)
+        }
+    }
+    
+    /// Rename some of the properties here so they're easier to work with
+    private enum CodingKeys: String, CodingKey {
+        case id = "dbn"
+        case name = "school_name"
+        case description = "overview_paragraph"
+        case phoneNumber = "phone_number"
+        case email = "school_email"
+        case website, nta, borough
+    }
 }

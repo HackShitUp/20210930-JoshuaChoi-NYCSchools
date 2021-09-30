@@ -17,9 +17,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             return
         }
         
+        // MARK: - UINavigationController
+        let rootNavigationController = UINavigationController(rootViewController: SchoolsViewController())
+        
         // MARK: - UIWindow
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = SchoolsViewController()
+        window?.rootViewController = rootNavigationController
         window?.makeKeyAndVisible()
     }
 
