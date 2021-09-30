@@ -6,11 +6,11 @@ This project successfully implements the following:
 • **Light & Dark Mode Appearance:"** Support for light/dark mode changes.  
 • **Persisted Likes:** Users may favorite or un-favorite a school. Ideally, this implementation should sync with the database so that the likes persist even if a user "logs out." However, when a user favorites a school in the ```SchoolSATDetailViewController```, we use the ```SchoolCellDelegate``` and the ```SchoolSATDetailViewControllerDelegate``` to update the main screen to also indicate the favorite state.
 
-# No Data Screenshot
-![Demo-No-Data](Demo-No-Data.png?raw=true)
-
 # Pagination & Linear Refresher Demo
 ![Demo-Pagination](Demo-Pagination.gif?raw=true)
 
 # Favorites Demo
 ![Demo-Favorite](Demo-Favorite.gif?raw=true)
+
+# No Data Screenshot
+![Demo-No-Data](Demo-No-Data.png?raw=true)
