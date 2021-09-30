@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests/Pods-20210930-JoshuaChoi-NYCSchools-20210930-JoshuaChoi-NYCSchoolsUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
 ${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
 ${BUILT_PRODUCTS_DIR}/NavigationTransitionController/NavigationTransitionController.framework
 ${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework

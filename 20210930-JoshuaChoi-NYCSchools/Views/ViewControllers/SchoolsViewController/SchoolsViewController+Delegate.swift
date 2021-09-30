@@ -6,7 +6,35 @@
 //
 
 import UIKit
+import DZNEmptyDataSet
 import NavigationTransitionController
+
+
+
+// MARK: - DZNEmptyDataSetSource/DZNEmptyDataSetDelegate
+extension SchoolsViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
+    func emptyDataSetShouldBeForced(toDisplay scrollView: UIScrollView!) -> Bool {
+        return schools.isEmpty
+    }
+    
+    func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        return NSAttributedString(string: "No Results", attributes: [.foregroundColor: Color(.LightGray), .font: Font.with(.bold, .heading)])
+    }
+    
+    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        return NSAttributedString(string: "Something went wrong. Please try again.", attributes: [.foregroundColor: Color(.LightGray), .font: Font.with(.bold, .body)])
+    }
+    
+    func buttonTitle(forEmptyDataSet scrollView: UIScrollView!, for state: UIControl.State) -> NSAttributedString! {
+        return NSAttributedString(string: "Try Again", attributes: [.foregroundColor: Color(.Accent), .font: Font.with(.black, .heading)])
+    }
+    
+    func emptyDataSet(_ scrollView: UIScrollView!, didTap button: UIButton!) {
+        // Reload the initial data
+        self.loadInitialData(self)
+    }
+}
+
 
 
 

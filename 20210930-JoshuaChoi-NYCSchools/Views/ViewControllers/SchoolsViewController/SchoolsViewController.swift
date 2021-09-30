@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import DZNEmptyDataSet
 import NavigationTransitionController
 
 
@@ -73,6 +74,10 @@ class SchoolsViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
         
+        // Setup the empty dataset
+        collectionView.emptyDataSetSource = self
+        collectionView.emptyDataSetDelegate = self
+        
         // MARK: - LinearRefresher
         linearRefresher.addTarget(self, action: #selector(loadInitialData(_:)), for: .valueChanged)
         collectionView.addSubview(linearRefresher)
@@ -127,7 +132,9 @@ class SchoolsViewController: UIViewController {
                 DispatchQueue.main.async {
                     // MARK: - LinearRefresher
                     self.linearRefresher.animate(false)
+                    
                     // Reload the collection view data
+                    self.collectionView.reloadEmptyDataSet()
                     self.collectionView.reloadData()
                 }
             } else {
@@ -139,7 +146,9 @@ class SchoolsViewController: UIViewController {
                 DispatchQueue.main.async {
                     // MARK: - LinearRefresher
                     self.linearRefresher.animate(false)
+                    
                     // Reload the collection view data
+                    self.collectionView.reloadEmptyDataSet()
                     self.collectionView.reloadData()
                 }
             }

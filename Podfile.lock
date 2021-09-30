@@ -1,4 +1,5 @@
 PODS:
+  - DZNEmptyDataSet (1.8.1)
   - NavigationTransitionController (0.0.1)
   - NVActivityIndicatorView (5.1.1):
     - NVActivityIndicatorView/Base (= 5.1.1)
@@ -6,21 +7,24 @@ PODS:
   - TTTAttributedLabel (2.0.0)
 
 DEPENDENCIES:
+  - DZNEmptyDataSet
   - NavigationTransitionController
   - NVActivityIndicatorView
   - TTTAttributedLabel
 
 SPEC REPOS:
   trunk:
+    - DZNEmptyDataSet
     - NavigationTransitionController
     - NVActivityIndicatorView
     - TTTAttributedLabel
 
 SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   NavigationTransitionController: f29a23112e28e907d00a4f4bd5ff170a8a631395
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: c24534ea315abc61d22244f2dc94e8fef9782d40
+PODFILE CHECKSUM: 7c6d0ceb3ba32f1a74f03fed4372259da9af1070
 
 COCOAPODS: 1.11.2
